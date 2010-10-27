@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "{templatesDir: '.', template: 'sample', mustacheFile: 'mustache.js', data: {content: 'Foo'}}" \
+    | java -cp ./js.jar org.mozilla.javascript.tools.shell.Main ./render.js
+
