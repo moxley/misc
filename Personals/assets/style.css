@@ -1,0 +1,76 @@
+/*
+Copyright (c) 2009, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.7.0
+*/
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+
+h1, h2, h3, h4, h5, h6, th, strong {
+    font-weight: bold;
+}
+
+body {
+}
+
+#header {
+    border: 3px solid #aaa;
+    margin: 1em;
+    padding: 1em 1em 0.5em;
+    position: relative;
+    height: 50px;
+}
+
+#header h1 {
+    position: absolute;
+    top: 5px;
+}
+
+#header .userInfo {
+    position: absolute;
+    right: 5px;
+    bottom: 3px;
+}
+
+#header .nav {
+    bottom: 3px;
+    position: absolute;
+}
+
+#body {
+    border: 3px solid #aaa;
+    margin: 1em;
+    padding: 1em;
+}
+
+#footer {
+    border: 3px solid #aaa;
+    margin: 1em;
+    padding: 1em;
+}
+
+.notice {
+    background-color: #ffa;
+    margin: 1em;
+    padding: 0.25em 0.5em;
+}
+
+td, th {
+    padding: 0 3px;
+}
+
+#blockIndex #blockLogin {
+    display: none;
+}
+
+#pageProfileEdit #edit_title, #pageProfileEdit #edit_body {
+    width: 50em;
+}
+
+#pageProfileEdit label {
+    display: block;
+}
+
+#pageProfileEdit br {
+    margin-bottom: 1em;
+}
