@@ -24,8 +24,9 @@ window.Bookmarklet = {
     }
     var a = document.createElement('a');
     a.href = url;
-    var text = document.createTextNode('Bookmark this link');
+    var text = document.createTextNode('> > > Bookmark this link');
     a.appendChild(text);
     container.appendChild(a);
+    document.getElementById('source').style.height = '2em';
   }
 };
